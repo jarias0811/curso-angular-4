@@ -1,0 +1,19 @@
+/*Componentes
+
+Hace de mediador entre una vista y un controlador. Hace parte de las vistas completas, una vista puede tener varios componentes.
+
+Decoradores
+
+Aportan caracteristicas a las clases, contienen metadatos o propiedades (JSON).
+
+Plantillas
+
+Son los html donde se definen las vistas de cada componente
+
+TypeScript
+
+Altamente tipado. Tiene clases constructores y orientación a objetos mejorada.
+
+Variables let
+
+*/
