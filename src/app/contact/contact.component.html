@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <h2>{{title}}</h2>
+        <div *ngIf="param">
+            {{param}}
+        </div>
+        <div *ngIf="!param">
+            <button (click)="redirect()">Ir a la pagína con parametro</button>
+            <button (click)="redirectHome()">Home</button>
+        </div>
+    </body>
+</html>

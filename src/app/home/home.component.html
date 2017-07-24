@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <h2>{{title}}</h2>
+        <br>
+        <input type="text" [(ngModel)]="clothesToSave"><button type="button" (click)="saveClothes(clothesToSave)">Añadir Prenda</button>
+        <p *ngIf="clothesToSave">Prenda a guardar: <strong>{{clothesToSave}}</strong></p>
+        <h2>Listado de Ropa</h2>
+        <ul>
+            <li *ngFor="let clothes of clothesList; let i = index">
+                {{clothes}}<button type="button" (click)="deleteClothes(i)">Eliminar</button>
+            </li>
+        </ul>
+    </body>
+</html>
