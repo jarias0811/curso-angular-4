@@ -1,0 +1,12 @@
+.blueBackground {
+  background: lightblue !important;
+}
+
+.greenBackground {
+  background: lightgreen !important;
+}
+
+.active {
+  font-weight: bold;
+  background: lightblue;
+}

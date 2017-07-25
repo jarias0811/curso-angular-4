@@ -9,7 +9,7 @@ import {Component} from '@angular/core';
 })
 
 /*Clase del componente, tiene encapsulamiento de datos, pero al pasarlo a javascript no lo tiene en cuenta*/
-export class FruitComponent {
+export class FruitComponent{
   public component_name = 'Componente de fruta';
   public fruit_list = 'Naranja,Manzana,Pera y Sandia';
   public name: string;
@@ -35,6 +35,7 @@ export class FruitComponent {
       let one = 8;
       let two = 15;
       if(one === 8){
+          let one= 5;
           console.log("DENTRO DEL IF");
       }
   }
